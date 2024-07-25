@@ -1,20 +1,21 @@
-let a = 7;
-let b = 13;
+let x = 7;
+let y = 13;
 let varMax;
 // if else method
-if(a > b){
-    varMax = a;
+if(x > y){
+    varMax = x;
 }
 else{
-    varMax = b;
+    varMax = y;
 }
 console.log("The value of Maximum number  = " + varMax);
+// The value of Maximum number  = 13
 
 // Ternary Operator
 
-let p = 10;
-let q = 20;
+
 let varMax1;
 
-p>q ? varMax1 = p : varMax1 = q;
+x>y ? varMax1=x : varMax1=y;
 console.log("The value of Maximum number by ternary is  = " + varMax1);
+// The value of Maximum number by ternary is  = 13
